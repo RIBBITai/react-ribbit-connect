@@ -1,6 +1,6 @@
 
 # react-ribbit-connect
-React component for integrating RIBBIT CONNECT into your webpage
+React component for integrating [RIBBIT CONNECT](https://ribbit.ai/) into your webpage
 
 Don't use react? Here are a few more implementation methods we provide:
 1.  [Pure JavaScript](https://github.com/darrylhuffman/ribbit-connect)
