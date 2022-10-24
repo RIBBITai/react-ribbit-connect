@@ -27,21 +27,21 @@ Please refer to the official [RIBBIT CONNECT](https://portal.ribbit.ai/Widgets/I
 import  {  RIBBITConnect  }  from  "react-ribbit-connect";
 
 const App extends React.Component {
-	// ...
-	render() {
-		return (
-			<RIBBITConnect
-				token={this.state.token}
-				settings={{
-					curtainColor:  'rgba(0,0,0,0.5)',
-				}}
-				onComplete={this.onComplete}
-				// onLaunch={...} // fired on ready
-				// onMessage={...}
-				// onExit={...}
-			/>
-		);
-	}
+   // ...
+   render() {
+      return (
+         <RIBBITConnect
+            token={this.state.token}
+            settings={{
+               curtainColor:  'rgba(0,0,0,0.5)',
+            }}
+            onComplete={this.onComplete}
+            // onLaunch={...} // fired on ready
+            // onMessage={...}
+            // onExit={...}
+         />
+      );
+   }
 }
 ```
 ### Additional Props
