@@ -65,3 +65,11 @@ const App extends React.Component {
 | ```onBankNotFound``` | function |  | ```function(eventData) => void```  
 | ```onBankLogin``` | function |  | ```function(eventData) => void```  
 | ```onLinkOpen``` | function |  | ```function(eventData) => void```  
+
+#### Settings
+| Name | Type | Default | Description | 
+| ------- | ----- | --------- | --------|
+| ```curtainColor``` | string |  | Color of the popup background curtain. Examples: ```#FFF``` and ```rgba(0,0,0,0.5)```
+| ```curtainAllowClose``` | boolean | true | Whether or not the user clicking on the popup background curtain should close the CONNECT popup
+
+
