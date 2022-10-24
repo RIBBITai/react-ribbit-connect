@@ -31,7 +31,7 @@ const App extends React.Component {
     render() {
         return (
             <RIBBITConnect
-            token={this.state.token}
+            token={this.state.token} // see documentation on how to get a token
             settings={{
                 curtainColor: 'rgba(0,0,0,0.5)',
             }}
@@ -44,7 +44,7 @@ const App extends React.Component {
     }
 }
 ```
-### Additional Props
+### All Props
 | Name | Type | Default | Description |
 | ------- | ----- | --------- | --------|
 | ```token``` | string |  | Token recieved from ```/CONNECT/session/``` endpoint
