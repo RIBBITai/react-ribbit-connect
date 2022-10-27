@@ -14,6 +14,8 @@ const RIBBITConnect = (props) => {
             className,
             onMessage,
             open = true,
+            environment,
+            environmentOverrideURL,
             getContext
         } = props,
         containerRef = useRef(null),
@@ -21,7 +23,7 @@ const RIBBITConnect = (props) => {
         {curtainColor, curtainAllowClose = true} = settings
 
     useEffect(() => {
-        if(!RIBBITConnectContext.current) RIBBITConnectContext.current = new MetaRIBBITConnect({ token, settings, inline, language });
+        if(!RIBBITConnectContext.current) RIBBITConnectContext.current = new MetaRIBBITConnect({ token, settings, inline, language, environment, environmentOverrideURL });
         containerRef.current.appendChild(RIBBITConnectContext.current.iFrame)
 
         RIBBITConnectContext.current.onMessage((functionName, message) => {
