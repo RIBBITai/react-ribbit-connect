@@ -1,6 +1,6 @@
 
 # react-ribbit-connect
-React component for integrating [RIBBIT CONNECT](https://ribbit.ai/) into your webpage
+React component for integrating [RIBBIT CONNECT](https://test.RIBBIT.ai/CONNECT) into your webpage
 
 Don't use react? Here are a few more implementation methods we provide:
 1.  [Pure JavaScript](https://github.com/darrylhuffman/ribbit-connect)
@@ -53,6 +53,7 @@ const App extends React.Component {
 | ```style``` | object |  | Optional styles to be applied to the CONNECT container
 | ```className``` | string |  | Optional class to be added to the CONNECT container
 | ```inline``` | boolean | false | Whether or not CONNECT should display inline (default is popup)
+| ```fullscreen``` | boolean | false | Whether or not CONNECT should display in full-screen mode (for native/mobile app implementation)
 | ```settings``` | object | | Additional settings (see below)
 | ```getContext``` | function |  | Can be used to get the RIBBIT CONNECT context
 | ```onMessage``` | function |  | Generic message handler that fires for every one of the events below ```function(eventName, eventData) => void```  
@@ -71,5 +72,6 @@ const App extends React.Component {
 | ------- | ----- | --------- | --------|
 | ```curtainColor``` | string |  | Color of the popup background curtain. Examples: ```#FFF``` and ```rgba(0,0,0,0.5)```
 | ```curtainAllowClose``` | boolean | true | Whether or not the user clicking on the popup background curtain should close the CONNECT popup
+| ```closeButton``` | boolean | false | Whether a close button should display in the top right corner of the widget. (on click fires the onExit method)
 
 

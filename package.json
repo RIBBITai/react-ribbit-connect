@@ -4,11 +4,12 @@
   "description": "React implementation for RIBBIT CONNECT",
   "main": "/src/index.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darrylhuffman/react-ribbit-connect.git"
+    "url": "git+https://github.com/RIBBITai/react-ribbit-connect.git"
   },
   "keywords": [
     "ribbit",
@@ -19,10 +20,11 @@
   "author": "Darryl Huffman <darryl@ribbit.ai>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/darrylhuffman/react-ribbit-connect/issues"
+    "url": "https://github.com/RIBBITai/react-ribbit-connect/issues"
   },
-  "homepage": "https://github.com/darrylhuffman/react-ribbit-connect#readme",
+  "homepage": "https://github.com/RIBBITai/react-ribbit-connect#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "ribbit-connect-meta": "^1.0.1"
   },
   "peerDependencies": {
@@ -30,6 +32,7 @@
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.19.3",
     "@babel/core": "^7.19.6",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/preset-env": "^7.19.4",
