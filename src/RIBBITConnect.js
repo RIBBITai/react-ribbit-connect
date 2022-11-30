@@ -4,7 +4,7 @@ import MetaRIBBITConnect from 'ribbit-connect-meta';
 import './index.scss'
 
 
-export const RIBBITConnect = (props) => {
+const RIBBITConnect = (props) => {
     const {
             token,
             language,
@@ -73,3 +73,4 @@ export const RIBBITConnect = (props) => {
 }
 
 RIBBITConnect.displayName = 'RIBBITConnect'
+export default RIBBITConnect

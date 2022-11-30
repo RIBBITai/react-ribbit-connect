@@ -1,3 +1,3 @@
-import { RIBBITConnect } from './RIBBITConnect'
+import RIBBITConnect from './RIBBITConnect'
 
 export { RIBBITConnect }
