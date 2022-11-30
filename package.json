@@ -23,6 +23,7 @@
   "bugs": {
     "url": "https://github.com/RIBBITai/react-ribbit-connect/issues"
   },
+  "files": [ "dist", "README.md" ],
   "homepage": "https://github.com/RIBBITai/react-ribbit-connect#readme",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
