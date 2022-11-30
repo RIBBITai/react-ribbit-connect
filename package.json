@@ -30,6 +30,7 @@
   "homepage": "https://github.com/RIBBITai/react-ribbit-connect#readme",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "core-js": "^3.26.1",
     "ribbit-connect-meta": "^1.0.1"
   },
   "peerDependencies": {
