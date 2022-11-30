@@ -1,6 +1,6 @@
 {
   "name": "react-ribbit-connect",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "React implementation for RIBBIT CONNECT",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -23,7 +23,10 @@
   "bugs": {
     "url": "https://github.com/RIBBITai/react-ribbit-connect/issues"
   },
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "homepage": "https://github.com/RIBBITai/react-ribbit-connect#readme",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
