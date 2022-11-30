@@ -9,5 +9,5 @@ Object.defineProperty(exports, "RIBBITConnect", {
     return _RIBBITConnect.default;
   }
 });
-var _RIBBITConnect = _interopRequireDefault(require("./src/RIBBITConnect"));
+var _RIBBITConnect = _interopRequireDefault(require("./components/RIBBITConnect"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
