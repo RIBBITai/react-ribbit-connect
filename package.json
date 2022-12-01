@@ -1,6 +1,6 @@
 {
   "name": "react-ribbit-connect",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "React implementation for RIBBIT CONNECT",
   "main": "dist/index.js",
   "module": "dist/index.js",
