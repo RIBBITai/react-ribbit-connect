@@ -42,7 +42,7 @@ const RIBBITConnect = (props) => {
         })
 
         
-        var existingStyles = document.head.getElementById('react-ribbit-connect-styles')
+        var existingStyles = document.getElementById('react-ribbit-connect-styles')
         if(!existingStyles){
             var style = document.createElement('style');
             style.id = 'react-ribbit-connect-styles'

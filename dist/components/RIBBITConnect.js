@@ -55,7 +55,7 @@ const RIBBITConnect = props => {
     if (getContext) getContext({
       RIBBITConnect: RIBBITConnectContext === null || RIBBITConnectContext === void 0 ? void 0 : RIBBITConnectContext.current
     });
-    var existingStyles = document.head.getElementById('react-ribbit-connect-styles');
+    var existingStyles = document.getElementById('react-ribbit-connect-styles');
     if (!existingStyles) {
       var style = document.createElement('style');
       style.id = 'react-ribbit-connect-styles';
