@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import MetaRIBBITConnect from 'ribbit-connect-meta';
-
-import './index.scss'
+import { stylesheet } from "./stylesheet";
 
 
 const RIBBITConnect = (props) => {
@@ -41,6 +40,15 @@ const RIBBITConnect = (props) => {
         if(getContext) getContext({
             RIBBITConnect: RIBBITConnectContext?.current
         })
+
+        
+        var existingStyles = document.head.getElementById('react-ribbit-connect-styles')
+        if(!existingStyles){
+            var style = document.createElement('style');
+            style.id = 'react-ribbit-connect-styles'
+            style.innerHTML = stylesheet;
+            document.head.appendChild(style);
+        }
     }, [getContext])
 
     useEffect(() => {
